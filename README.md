@@ -18,7 +18,7 @@ Three classification algorithms were trained and compared:
 The models were evaluated using Accuracy, Precision, Recall, F1-score,
 and Confusion Matrix.
 
-------------------------------------------------------------------------
+
 
 ## Dataset
 
@@ -44,7 +44,7 @@ Moderate  → 1
 High      → 2
 ```
 
-------------------------------------------------------------------------
+
 
 ## Data Preprocessing
 
@@ -62,7 +62,7 @@ High      → 2
 Preprocessing parameters were learned from the training data and then
 applied to the test data to avoid data leakage.
 
-------------------------------------------------------------------------
+
 
 ## Models
 
@@ -83,7 +83,7 @@ Feature scaling was not required because Random Forest is tree-based.
 
 Trained using the preprocessed training features.
 
-------------------------------------------------------------------------
+
 
 ## Results
 
@@ -111,7 +111,7 @@ The models were evaluated on **3,000 unseen test samples**.
 | Gradient Boosting   | Moderate |      0.58 |   0.58 |     0.58 |
 | Gradient Boosting   | High     |      0.82 |   0.70 | **0.75** |
 
-------------------------------------------------------------------------
+
 
 ## Findings
 
@@ -133,7 +133,7 @@ The models were evaluated on **3,000 unseen test samples**.
   describe model performance. Class-wise Precision, Recall, F1-score,
   and Macro F1 were also considered.
 
-------------------------------------------------------------------------
+
 
 ## Project Workflow
 
@@ -165,7 +165,7 @@ Model Evaluation
 Confusion Matrix & Findings
 ```
 
-------------------------------------------------------------------------
+
 
 ## Technologies Used
 
@@ -177,7 +177,7 @@ Confusion Matrix & Findings
 - Seaborn
 - Google Colab
 
-------------------------------------------------------------------------
+
 
 ## Conclusion
 
@@ -190,7 +190,7 @@ the Low- and High-risk classes. The results also demonstrate the
 importance of using multiple evaluation metrics rather than relying only
 on accuracy for an imbalanced classification problem.
 
-------------------------------------------------------------------------
+
 
 ## Future Improvements
 
@@ -202,7 +202,7 @@ on accuracy for an imbalanced classification problem.
 - Further feature selection experiments
 - Evaluation using the official competition metric
 
-------------------------------------------------------------------------
+
 
 ## Author
 
